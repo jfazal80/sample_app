@@ -9,9 +9,9 @@ describe PagesController do
     end
   end
 
-  describe "GET 'content'" do
+  describe "GET 'contact'" do
     it "should be successful" do
-      get 'content'
+      get 'contact'
       response.should be_success
     end
   end
